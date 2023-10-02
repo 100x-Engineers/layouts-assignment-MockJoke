@@ -631,6 +631,10 @@ video {
   display: flex;
 }
 
+.inline-flex {
+  display: inline-flex;
+}
+
 .grid {
   display: grid;
 }
@@ -670,6 +674,10 @@ video {
 
 .h-full {
   height: 100%;
+}
+
+.h-9 {
+  height: 2.25rem;
 }
 
 .w-full {
@@ -746,6 +754,10 @@ video {
 }
 
 .flex-grow {
+  flex-grow: 1;
+}
+
+.grow {
   flex-grow: 1;
 }
 
@@ -845,6 +857,10 @@ video {
 
 .gap-4 {
   gap: 1rem;
+}
+
+.self-start {
+  align-self: flex-start;
 }
 
 .self-stretch {
@@ -1228,6 +1244,16 @@ video {
   color: rgb(115 115 115 / var(--tw-text-opacity));
 }
 
+.placeholder\:text-neutral-600::-moz-placeholder {
+  --tw-text-opacity: 1;
+  color: rgb(82 82 82 / var(--tw-text-opacity));
+}
+
+.placeholder\:text-neutral-600::placeholder {
+  --tw-text-opacity: 1;
+  color: rgb(82 82 82 / var(--tw-text-opacity));
+}
+
 .focus-within\:border-twitter-default:focus-within {
   --tw-border-opacity: 1;
   border-color: rgb(29 155 240 / var(--tw-border-opacity));
@@ -1336,6 +1362,26 @@ video {
 
   .md\:rounded-6xl {
     border-radius: 624.9375rem;
+  }
+
+  .md\:px-5 {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
+  .md\:px-5\.8rem {
+    padding-left: 5.8125rem;
+    padding-right: 5.8125rem;
+  }
+
+  .md\:py-0 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .md\:py-0\.9rem {
+    padding-top: 0.9375rem;
+    padding-bottom: 0.9375rem;
   }
 }
 
